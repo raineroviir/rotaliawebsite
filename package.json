@@ -1,0 +1,24 @@
+{
+  "name": "rotaliawebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.9.x"
+  },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mars/heroku-nextjs-build": "^1.1.0",
+    "next": "^2.0.0-beta"
+  }
+}
