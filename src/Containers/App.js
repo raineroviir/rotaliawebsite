@@ -20,13 +20,12 @@ class App extends React.Component {
       <div style={{display: "flex", fontFamily: "Arial"}}>
         <Nav />
         <div style={{display: "flex", flexDirection: "column", width: "100%"}}>
-          <div className="content-wrapper" style={{display: "flex", flexDirection: "column", padding: "10px 0 10px 10px"}}>
+          <div className="content-wrapper" style={{display: "flex", flexDirection: "column"}}>
             <Header />
             <div className="content" style={{padding: "30px", display: "flex", flexGrow: "1", height: "100%"}}>
               {this.props.children}
             </div>
           </div>
-
             <Footer style={{alignSelf: "flex-end"}}/>
 
         </div>
