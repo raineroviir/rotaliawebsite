@@ -7,7 +7,7 @@
     "start": "NODE_ENV=production node ./src/server/index.js",
     "build": "webpack --config ./webpack.production.config.js --progress --colors",
     "dev": "node ./src/server/index.js",
-    "productiontest": "node ./test/productiontest/index",
+    "productiontest": "node ./productiontest/index",
     "bundlesize": "webpack --json | webpack-bundle-size-analyzer"
   },
   "repository": {
@@ -55,7 +55,8 @@
     "semantic-ui-css": "^2.2.4",
     "semantic-ui-react": "^0.61.10",
     "serve-static": "^1.10.0",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.8"
   },
   "devDependencies": {
     "babel-loader": "^6.2.0",

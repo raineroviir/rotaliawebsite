@@ -4,7 +4,7 @@ export default class TiinaOviir extends React.Component {
   render() {
     return (
       <div>
-        Biography
+        {/* Biography
 TIINA OVIIR
 Date of Birth 07/06/ 1963 in Pärnu, Estonia
 
@@ -61,7 +61,7 @@ University of Washington Endodontics Assistant Professor 2000-2003 100%
 University of Washington Endodontics Clinical Assistant 2003-june 100%
 
 Professor 2006
-
+ */}
 
       </div>
     )

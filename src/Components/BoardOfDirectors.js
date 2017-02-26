@@ -1,14 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default class BoardOfDirectors extends React.Component {
   render() {
     return (
       <div>
-        Rotalia Foundation Board of Directors
-        13 February 2017
-
-        <p>Mart Kask - President</p>
-        <p>Vaho Rebassoo - Secretary</p>
+        Rotalia Foundation Board of Directors as of 13 February 2017
+        <Link to="/Mart-Kask"> <p>Mart Kask - President</p></Link>
+        <Link to="/Vaho-Rebassoo"><p>Vaho Rebassoo - Secretary</p></Link>
         <p>Paul Raidna - Treasurer </p>
         <p>Veljo Areng</p>
         <p>Rein Grabbi</p>

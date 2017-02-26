@@ -58,6 +58,10 @@ module.exports = {
         loader: 'style!css?localIdentName=[path][name]--[local]!postcss-loader!sass',
       },
       {
+        test: /\.(pdf)$/,
+        loader: 'file?name=[path][name].[ext]'
+      },
+      {
         test: /\.json$/,
         loader: 'json',
         include: path.join(__dirname, 'src')

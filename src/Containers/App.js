@@ -19,16 +19,16 @@ class App extends React.Component {
     return (
       <div style={{display: "flex", fontFamily: "Arial"}}>
         <Nav />
-        <div style={{display: "flex", flexDirection: "column", width: "100%", height: "100%"}}>
-          <div className="content-wrapper" style={{display: "flex", flexDirection: "column", flexGrow: "1", padding: "10px 0 10px 10px"}}>
+        <div style={{display: "flex", flexDirection: "column", width: "100%"}}>
+          <div className="content-wrapper" style={{display: "flex", flexDirection: "column", padding: "10px 0 10px 10px"}}>
             <Header />
-            <div className="content">
+            <div className="content" style={{padding: "30px", display: "flex", flexGrow: "1", height: "100%"}}>
               {this.props.children}
             </div>
           </div>
-          <div style={{display: "flex", flexDirection: "column", flexGrow: "0", justifyContent: "flex-end"}}>
-            <Footer />
-          </div>
+
+            <Footer style={{alignSelf: "flex-end"}}/>
+
         </div>
       </div>
     );

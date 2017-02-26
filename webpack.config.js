@@ -41,6 +41,10 @@ module.exports = {
         include: path.join(__dirname, 'src')
       },
       {
+        test: /\.(pdf)$/,
+        loader: 'file?name=[path][name].[ext]'
+      },
+      {
         test: /\.css?$/,
         loaders: ['style', 'raw']
       },
