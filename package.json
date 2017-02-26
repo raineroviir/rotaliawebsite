@@ -7,7 +7,7 @@
     "start": "NODE_ENV=production node ./src/server/index.js",
     "build": "webpack --config ./webpack.production.config.js --progress --colors",
     "dev": "node ./src/server/index.js",
-    "productiontest": "node ./test/productiontest/index",
+    "productiontest": "node ./productiontest/index",
     "bundlesize": "webpack --json | webpack-bundle-size-analyzer"
   },
   "repository": {

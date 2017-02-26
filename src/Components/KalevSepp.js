@@ -4,11 +4,7 @@ export default class KalevSepp extends React.Component {
   render() {
     return (
       <div>
-        Kalev Sepp
-        <div>
-          Kalev Sepp
-Elulugu
-
+{/*
 Kalev Sepp on sündinud Tartumaal Meeril 24. märtsil 1965. Ta on õppinud Nõo
 Keskoolis (Reaalgümnaasiumis).
 
@@ -38,10 +34,8 @@ Portlandis) ning UW Balti Programmi toetajate hulgas „Follow the Amber
 Road“ oksjonite tehnilise toe korraldajana 1997 - 2001.
 
 Kalevi hobideks on rahvatants, fotograafia ja videograafia. Kalev on abielus ja ühe tütre
-isa.
+isa. */}
 
-
-        </div>
       </div>
     )
   }
