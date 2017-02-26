@@ -7,7 +7,8 @@ export default class Header extends React.Component {
     return (
       <div style={{display: "flex", padding: "0 0 30px 0", justifyContent: "center"}}>
         <div style={{fontSize: "30px", color: "#a9d864"}}>
-          Rotalia Foundation
+          Rotalia Foundation:
+          <p>Providing scholarships in the pursuit of higher learning</p>
         </div>
       </div>
     )
