@@ -10,13 +10,15 @@ export default class Nav extends React.Component {
           <div style={{background: `url(${RotaliaLogo})`, width: "100px", height: "89px", backgroundRepeat: "no-repeat"}}>
           </div>
         </Link>
+        <Link style={{padding: "10px"}} to="/"><div style={{color: "white"}}>Home</div></Link>
         <Link style={{padding: "10px"}} to="/news"><div style={{color: "white"}}>News</div></Link>
-        <Link style={{padding: "10px"}} to="/about"><div style={{color: "white"}}>About</div></Link>
         <Link style={{padding: "10px"}} to="/board"><div style={{color: "white"}}>Board of Directors</div></Link>
-        {/* <Link style={{padding: "10px"}} to="/selection"><div style={{color: "white"}}>Selection Committee</div></Link> */}
-        <Link style={{padding: "10px"}} to="/recipients"><div style={{color: "white"}}>Recipients</div></Link>
+        <Link style={{padding: "10px"}} to="/selection"><div style={{color: "white"}}>Selection Committee</div></Link>
+        <Link style={{padding: "10px"}} to="/recipients"><div style={{color: "white"}}>Scholarship Recipients</div></Link>
+        <Link style={{padding: "10px"}} to="/incorporation"><div style={{color: "white"}}>Articles of Incorporation</div></Link>
+        <Link style={{padding: "10px"}} to="/trust"><div style={{color: "white"}}>Charitable Trust</div></Link>
+        <Link style={{padding: "10px"}} to="/bylaws"><div style={{color: "white"}}>By-Laws</div></Link>
         <Link style={{padding: "10px"}} to="/contact"><div style={{color: "white"}}>Contact</div></Link>
-        {/* <Link style={{padding: "10px"}} to="/history"><div style={{color: "white"}}>History</div></Link> */}
       </div>
     )
   }

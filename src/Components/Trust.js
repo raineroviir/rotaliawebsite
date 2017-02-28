@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default class News extends React.Component {
+export default class Trust extends React.Component {
   render() {
     return (
       <div>
+        Trust
       </div>
     )
   }
