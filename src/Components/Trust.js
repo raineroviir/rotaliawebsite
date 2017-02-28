@@ -4,7 +4,9 @@ export default class Trust extends React.Component {
   render() {
     return (
       <div>
-        Trust
+        <div>
+          <a href={require("../pdfs/CharitableTrust.pdf")}>CharitableTrust</a>
+        </div>
       </div>
     )
   }

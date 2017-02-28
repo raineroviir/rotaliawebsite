@@ -4,7 +4,9 @@ export default class Incorporation extends React.Component {
   render() {
     return (
       <div>
-        Incorporation
+        <div>
+          <a href={require("../pdfs/ArticlesofIncorporation.pdf")}>Articles of Incorporation</a>
+        </div>
       </div>
     )
   }
