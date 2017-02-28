@@ -1,12 +1,11 @@
 import React from 'react'
-import pdfFile from "../pdfs/RF_stipendiaadid_2016.pdf"
 
 export default class Recipients extends React.Component {
   render() {
     return (
       <div style={{display: "flex", flexDirection: "column"}}>
         <div>
-          <a href={pdfFile} >2016/2017</a>
+          <a href={require("../pdfs/RF_stipendiaadid_2016.pdf")} >2016/2017</a>
         </div>
         <div>
           <a href={require("../pdfs/RF_stipendiaadid_2015.pdf")}>2015/2016</a>
