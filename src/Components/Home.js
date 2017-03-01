@@ -5,7 +5,7 @@ export default class Home extends React.Component {
     return (
       <div>
 <div style={{fontWeight: "600"}}>Purpose</div>
-<p>The purpose or mission of the Rotalia Foundation is to:</p>
+The purpose or mission of the Rotalia Foundation is to:
 
   <p>1. Provide scholarships in pursuit of higher learning</p>
   <p>2. Make and publish research and studies</p>
