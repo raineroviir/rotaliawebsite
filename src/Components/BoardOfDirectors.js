@@ -5,7 +5,7 @@ export default class BoardOfDirectors extends React.Component {
   render() {
     return (
       <div>
-        <p>Rotalia Foundation Board of Directors as of 13 February 2017</p>
+        Rotalia Foundation Board of Directors as of 13 February 2017
         <ul>
           <li><Link to="/Mart-Kask">Mart Kask, M.S., PE, ICMA, Chairman & Managing Director, Mercer Island, WA</Link></li>
           <li><Link to="/Vaho-Rebassoo">Vaho Rebbasoo, Ph.D., Secretary, Seattle, WA</Link></li>

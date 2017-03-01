@@ -6,7 +6,7 @@ export default class Bylaws extends React.Component {
       <div>
         
         <div>
-          <p>ARTICLE I</p>
+          ARTICLE I
     <p>The name of the corporation shall be the Rotalia Foundation</p>
     <p>ARTICLE II</p>
     <p>Purpose</p>
