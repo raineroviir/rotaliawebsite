@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router'
 import RotaliaLogo from '../RotaliaLogoV4.png'
+import HamburgerIcon from 'react-icons/lib/md/dehaze'
 
 export default class Nav extends React.Component {
   render() {
     return (
-      <div style={{background: "#1173bc", color: "white", padding: "20px", width: "160px"}}>
+      <div style={{background: "#1173bc", color: "white", padding: "5px 20px", width: "160px"}}>
         <Link to="/" style={{display: "flex", justifyContent: "center"}}>
           <div style={{background: `url(${RotaliaLogo})`, width: "100px", height: "89px", backgroundRepeat: "no-repeat"}}>
           </div>
