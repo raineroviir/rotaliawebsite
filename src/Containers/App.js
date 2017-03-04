@@ -14,7 +14,7 @@ class App extends React.Component {
     this.showNav = this.showNav.bind(this)
     this.state = {
       contentHeight: "auto",
-      nav: false
+      nav: false,
     }
   }
   componentDidMount() {
@@ -34,6 +34,7 @@ class App extends React.Component {
     this.setState({nav: !this.state.nav})
     console.log('clicked outside')
   }
+
   render() {
     const { height, isMobile, width } = this.props
     const computedStyle = isMobile ?
@@ -54,11 +55,11 @@ class App extends React.Component {
       )
     }
     return (
-      <div style={{display: "flex", fontFamily: "Arial", }}>
+      <div style={{display: "flex", fontFamily: "Arial", padding: "0 80px 0 50px"}}>
         <Nav />
         <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
           <Header />
-          <div id="content" className="content" style={{padding: "30px 90px", display: "flex", flexGrow: "1"}}>
+          <div id="content" className="content" style={{padding: "30px 0 0 0", display: "flex", flexGrow: "1"}}>
             {this.props.children}
           </div>
           <Footer style={{alignSelf: "flex-end"}}/>

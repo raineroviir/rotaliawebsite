@@ -11,10 +11,6 @@ export default class MobileNav extends React.Component {
   render() {
     return (
       <div style={{background: "#1173bc", color: "white", padding: "10px", width: "160px"}}>
-        <Link to="/" style={{display: "flex", justifyContent: "center"}}>
-          <div style={{background: `url(${RotaliaLogo})`, width: "100px", height: "89px", backgroundRepeat: "no-repeat"}}>
-          </div>
-        </Link>
         <Link style={{padding: "10px"}} to="/"><div style={{color: "white"}}>Home</div></Link>
         <Link style={{padding: "10px"}} to="/news"><div style={{color: "white"}}>News</div></Link>
         <Link style={{padding: "10px"}} to="/board"><div style={{color: "white"}}>Board of Directors</div></Link>

@@ -15,3 +15,14 @@ a:link {
   z-index: -1;
   opacity: 70%;
 }
+
+.navbar-button {
+  div:hover {
+    background: rgb(13, 93, 153);
+  }
+}
+
+.navbar-innerbutton-div {
+  padding: 10px 10px 10px 20px;
+  color: white;
+}
