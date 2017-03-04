@@ -3,8 +3,18 @@ import React from 'react'
 export default class Recipients extends React.Component {
   render() {
     return (
-      <div style={{display: "flex", flexDirection: "column"}}>
-        <div>
+      <div style={{display: "flex", flexDirection: "column", fontWeight: "600"}}>
+        <p style={{fontSize: "18px"}}>Scholarship Recipients</p>
+          <p>The 2016-2017 academic year scholarship recipients are listed on the following page:
+          </p>
+
+          <div>
+            <a href={require("../pdfs/2016Recipients.pdf")} >Recipients</a>
+          </div>
+          <div>
+            <a href={require("../pdfs/Brochure095.pdf")} >Brochure</a>
+          </div>
+        {/* <div>
           <a href={require("../pdfs/RF_stipendiaadid_2016.pdf")} >2016/2017</a>
         </div>
         <div>
@@ -27,7 +37,7 @@ export default class Recipients extends React.Component {
         </div>
         <div>
           <a href={require("../pdfs/RF_stipendiaadid_2009.pdf")}>2009/2010</a>
-        </div>
+        </div> */}
       </div>
     )
   }

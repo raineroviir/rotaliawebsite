@@ -3,10 +3,12 @@ import React from 'react'
 export default class Bylaws extends React.Component {
   render() {
     return (
-      <div>
-        
-        <div>
-          ARTICLE I
+      <div style={{fontWeight: "600", display: "flex", flexDirection: "column"}}>
+        <p style={{fontSize: "18px"}}>By-Laws </p>
+          <p>By-Laws, dated 1983 are shown on the following pages:</p>
+          <a href={require("../pdfs/Bylaws.pdf")}>By-Laws</a>
+        <div style={{padding: "15px 0 0 0"}}>
+          <p>ARTICLE I</p>
     <p>The name of the corporation shall be the Rotalia Foundation</p>
     <p>ARTICLE II</p>
     <p>Purpose</p>
