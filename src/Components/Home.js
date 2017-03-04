@@ -6,9 +6,11 @@ export default class Home extends React.Component {
       <div style={{fontWeight: "600"}}>
 <p>The purpose and mission of the Rotalia Foundation is to preserve and enhance Estonian cultural heritage by:</p>
 
-<p>Providing scholarships in pursuit of higher learning, and
-Conducting  and publishing research and studies and make them available to the public
-</p>
+<ul>
+  <li>Providing scholarships in pursuit of higher learning, and</li>
+<li>Conducting  and publishing research and studies and make them available to the public
+</li>
+</ul>
 <p style={{fontSize: "18px"}}>About the Foundation</p>
 
 <p>The Rotalia Foundation is a Non-Profit Charitable Corporation, registered in the State of Washington, United States of America.  The Corporation is certified by the Unites States Department of Treasury as a tax free corporation under Section 501(c)3 of the Internal Revenue Service (IRS) Code.  This IRS certification means that donations to the Rotalia Foundation by individuals, households, corporations, and organizations, are exempt from paying federal income tax on the value of their donation.   Donations can be made in money and/or real and personal property.
