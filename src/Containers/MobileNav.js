@@ -1,7 +1,5 @@
-import OnClickOutside from 'react-onclickoutside'
 import React from 'react'
 import { Link } from 'react-router'
-import RotaliaLogo from '../RotaliaLogoV4.png'
 import HamburgerIcon from 'react-icons/lib/md/dehaze'
 
 export default class MobileNav extends React.Component {

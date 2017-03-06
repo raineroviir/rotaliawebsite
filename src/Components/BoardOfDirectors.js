@@ -8,7 +8,7 @@ export default class BoardOfDirectors extends React.Component {
         <p style={{fontSize: "18px"}}>Board of Directors</p>
         <ul>
           <li><Link to="/Mart-Kask">Mart Kask, M.S., PE, ICMA, Chairman & Managing Director, Mercer Island, WA</Link></li>
-          <li><Link to="/Vaho-Rebassoo">Vaho Rebbasoo, Ph.D., Secretary, Seattle, WA</Link></li>
+          <li><Link to="/Vaho-Rebassoo">Vaho Rebassoo, Ph.D., Secretary, Seattle, WA</Link></li>
           <li>Paul Raidna, BA, CPA., Seattle, WA</li>
           <li>Veljo Areng, BS, PE, Member, Muraste, Harjumaa, Estonia</li>
           <li>Rein Grabbi, MS, Chairman, Scholarship Selection Committee, Tallinn, Estonia</li>

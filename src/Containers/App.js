@@ -27,35 +27,36 @@ class App extends React.Component {
       this.setState({contentHeight: height})
     }
   }
-  handleClick() {
-    console.log('hclick')
-  }
   showNav() {
     this.setState({nav: !this.state.nav})
-    console.log('clicked outside')
   }
-
   render() {
     const { height, isMobile, width } = this.props
     const computedStyle = isMobile ?
     {height: `${height}px`,width: `${width}px`} :
     {height: "auto", top: "auto"}
+    console.log(height)
+    console.log(width)
     if (isMobile) {
       return (
         <div style={{display: "flex", fontFamily: "Arial"}}>
-          {this.state.nav && <MobileNav handleClick={this.showNav} show={this.showNav}/>}
+          {this.state.nav && <MobileNav show={this.showNav}/>}
           <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
             <MobileHeader nav={this.state.nav} handleClick={this.showNav}/>
-            <div id="content" style={{padding: "20px 10px", display: "flex", flexGrow: "1"}}>
-              {this.props.children}
+            <div id="content" className="content" style={{overflowY: "scroll",  display: "flex", flexDirection: "column",flexGrow: "1"}}>
+              <div style={{padding: "20px 10px"}}>
+                {this.props.children}
+              </div>
+              <div style={{flexGrow: "0", marginTop: "auto"}}>
+              <Footer />
+              </div>
             </div>
-            <Footer style={{alignSelf: "flex-end"}}/>
           </div>
         </div>
       )
     }
     return (
-      <div style={{display: "flex", fontFamily: "Arial", padding: "0 80px 0 50px"}}>
+      <div style={computedStyle, {display: "flex", fontFamily: "Arial", padding: "0 80px 0 50px"}}>
         <Nav />
         <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
           <Header />
