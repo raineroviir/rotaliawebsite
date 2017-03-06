@@ -15,8 +15,8 @@ export default class BoardOfDirectors extends React.Component {
           <li>Mati Laan, BS, PE, Member, Santa Monica, CA</li>
           <li>Thomas Napa, MBA, CPA, Vice Chairman, Edmonds, WA</li>
           <li>Tiina Oviir, DDS, Member, Seattle, WA</li>
-          <Link to="/Kalev-Sepp"><li>Kalev Sepp, Ph.D., Vice Chairman, Beaverton, OR</li></Link>
-          <li>Jūri Tint, MS, Member, East Hampton, NY</li>
+          <li>Kalev Sepp, Ph.D., Vice Chairman, Beaverton, OR</li>
+          <li>Jüri Tint, MS, Member, East Hampton, NY</li>
           <li>Margus Veanes, Ph.D., Member, Bellevue, WA</li>
           <li>Valdek Parik, AS, Member, Aloha, OR</li>
         </ul>
