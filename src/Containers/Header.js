@@ -1,5 +1,5 @@
 import React from 'react'
-import RotaliaLogo from '../RotaliaLogoV4.png'
+import RotaliaLogo from '../RotaliaLogoMedium.png'
 
 import { Link } from 'react-router'
 

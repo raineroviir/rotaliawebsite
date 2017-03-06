@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+html {
+  overflow: scroll;
+}
+
 a:link {
     text-decoration: none;
 }

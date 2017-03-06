@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router'
-import RotaliaLogo from '../RotaliaLogoV4.png'
 import HamburgerIcon from 'react-icons/lib/md/dehaze'
 
 export default class Nav extends React.Component {
@@ -15,7 +14,6 @@ export default class Nav extends React.Component {
     this.setState({active: e.target.innerText})
   }
   render() {
-    console.log(this.state.active)
     return (
       <div style={{background: "#1173bc", color: "white", padding: "25px 0 5px 0", width: "125px", flexShrink: "0", margin: "119px 50px 0 0"}}>
         <Link className="navbar-button" to="/">
