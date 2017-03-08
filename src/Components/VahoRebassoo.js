@@ -1,11 +1,19 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 export default class VahoRebassoo extends React.Component {
+  componentDidMount() {
+    ReactDOM.findDOMNode(this).scrollIntoView()
+  }
   render() {
     return (
       <div>
-        <p style={{fontSize: "24px"}}>Vaho Rebassoo</p>
+        <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
+        Vaho Rebassoo - Secretary
+        </div>
+        <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} />
 
+        <div style={{fontSize: "14px"}}>
 <p>As Chief Technology Officer for Boeing IT, Dr. Vaho Rebassoo is
 responsible for strategic planning and direction for infrastructure
 technology across The Boeing Company.</p>
@@ -33,6 +41,7 @@ Council, and the Pacific Institute for Mathematical Sciences Board.</p>
 
 <p>He has been an angel investor or board member for 3 new venture firms.
 </p>
+</div>
       </div>
     )
   }

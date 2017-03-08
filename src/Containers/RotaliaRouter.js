@@ -16,6 +16,7 @@ import KalevSepp from '../Components/KalevSepp'
 import Bylaws from '../Components/Bylaws'
 import Trust from '../Components/Trust'
 import Incorporation from '../Components/Incorporation'
+import PaulRaidna from '../Components/PaulRaidna'
 
 export default class GoFlyRouter extends Component {
   render() {
@@ -26,11 +27,13 @@ export default class GoFlyRouter extends Component {
           <Route path="/news" component={News} />
           <Route path="/home" component={Home} />
           <Route path="/board" component={BoardOfDirectors} />
+          
           <Route path="/Mart-Kask" component={MartKask} />
-          <Route path="/Tiina-Oviir" component={TiinaOviir} />
-          <Route path="/Kalev-Sepp" component={KalevSepp} />
-          <Route path="/Valdek-Parik" component={ValdekParik} />
+          {/* <Route path="/Tiina-Oviir" component={TiinaOviir} /> */}
+          {/* <Route path="/Kalev-Sepp" component={KalevSepp} /> */}
+          {/* <Route path="/Valdek-Parik" component={ValdekParik} /> */}
           <Route path="/Vaho-Rebassoo" component={VahoRebassoo} />
+          <Route path="/Paul-Raidna" component={PaulRaidna} />
           <Route path="/recipients" component={Recipients} />
           <Route path="/selection" component={SelectionCommittee} />
           <Route path="/bylaws" component={Bylaws} />
