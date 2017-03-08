@@ -46,13 +46,14 @@ module.exports = {
           presets: [ "react", "es2015" , "stage-0" ]
         }
       },
-      {
-      test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-          'file?name=images/[name].[ext]',
-          'webp?name=images/[name].[ext]'
-        ]
-      },
+      // {
+      // test: /\.(jpe?g|png|gif|svg)$/i,
+      //   loaders: [
+      //     'file?name=images/[name].[ext]',
+      //     'webp?name=images/[name].[ext]'
+      //   ]
+      // },
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
       {
         test: /\.scss$/,
         loader: 'style!css?localIdentName=[path][name]--[local]!postcss-loader!sass',
