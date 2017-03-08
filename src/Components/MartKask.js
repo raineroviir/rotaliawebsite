@@ -1,10 +1,16 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 export default class MartKask extends React.Component {
   render() {
     return (
       <div>
-        <p style={{fontSize: "24px"}}>Mart Kask</p>
+        <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
+        Mart Kask - Chairman & Managing Director
+        </div>
+          <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} />
+
+          <div style={{fontSize: "14px"}}>
 
 <p>Mart Kask was born in Tartu, Estonia, his father being a regional forester,
 and his mother, a high school biology teacher. The occupation of Estonia by the
@@ -47,7 +53,7 @@ State Legislature and the U.S. Congress. One of his lobbying achievements
 culminated in the construction of the Washington State History Museum in
 Tacoma, Washington ($60 million).</p>
 
-
+  </div>
       </div>
     )
   }

@@ -35,8 +35,6 @@ class App extends React.Component {
     const computedStyle = isMobile ?
     {height: `${height}px`,width: `${width}px`} :
     {height: "auto", top: "auto"}
-    console.log(height)
-    console.log(width)
     if (isMobile) {
       return (
         <div style={{display: "flex", fontFamily: "Arial"}}>

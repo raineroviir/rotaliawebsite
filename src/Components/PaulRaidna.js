@@ -1,16 +1,26 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 export default class PaulRaidna extends React.Component {
+  componentDidMount() {
+    ReactDOM.findDOMNode(this).scrollIntoView()
+  }
   render() {
     return (
-      <div>
-        <div>
-          <div style={{width: "338px", height: "451px", backgroundImage: `url(${require("../PaulRaidna.jpg")})`}}/>
-        </div>
+      <div style={{fontWeight: "600"}}>
 
-        <p>Paul Raidna was born in Seattle, Washington to Estonian immigrant parents, his parents having fled the Soviet takeover of Estonia near the end of World War II. As such, Paul was raised in a traditional Estonian household, folkdancing, singing in children’s choirs and speaking the Estonian language.</p>
+      <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
+      Paul Raidna - Treasurer
+      </div>
+        <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={require("../PaulRaidnav2.png")} />
 
+        <div style={{fontSize: "14px"}}>
+
+        <div>Paul Raidna was born in Seattle, Washington to Estonian immigrant parents, his parents having fled the Soviet takeover of Estonia near the end of World War II. As such, Paul was raised in a traditional Estonian household, folkdancing, singing in children’s choirs and speaking the Estonian language.</div>
         <p>He has steadfastly been committed to his Estonian heritage throughout his life, holding leadership positions in the local Estonian-American community where he served as President of the Seattle Estonian Society for nine consecutive years as well as serving on non-profit Boards associated with the University of Washington’s Baltic Studies Fund and University of Washington Scandinavian Studies Department. Mr. Raidna has served as the Treasurer of the Rotalia Foundation since being elected to that role in September 2006.</p>
+
+
+
 
         <p>Professionally, Mr. Raidna is the Managing Director of Graham Capital Group, LLC, a private equity firm in Seattle, Washington. He joined the firm with the charge of prospecting, evaluating, closing and managing acquisitions for the Graham Capital Group portfolio of companies. He currently oversees and sits on the Boards of six companies in the Pacific Northwest ranging from aerospace component manufacturing, metal and electronics recycling and various construction related sub-trades.</p>
 
@@ -19,6 +29,8 @@ export default class PaulRaidna extends React.Component {
         <p>Mr. Raidna holds a Bachelor of Arts degree in Business Administration (Accounting Concentration) from the University of Washington and is a Certified Public Accountant. In addition to a successful business career, Mr. Raidna is the Honorary Consul for the Republic of Estonia in Washington State where he is instrumental in facilitating business, political and cultural exchanges between these two international regions.</p>
 
         <p>He is married, has two young children and is an avid offshore sport fisherman and restorer and collector of nationally award winning classic automobiles.</p>
+
+                </div>
       </div>
     )
   }
