@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export default class BoardOfDirectors extends React.Component {
   render() {
     return (
-      <div style={{display: "flex", flexFlow: "row wrap", width: "100%", fontWeight: "600"}}>
+      <div style={{display: "flex", flexFlow: "row wrap", width: "100%", fontWeight: "600", flexGrow: "0"}}>
         <p style={{fontSize: "18px"}}>Board of Directors</p>
         {/* <ul>
           <li><Link to="/Mart-Kask">Mart Kask, M.S., PE, ICMA, Chairman & Managing Director, Mercer Island, WA</Link></li>

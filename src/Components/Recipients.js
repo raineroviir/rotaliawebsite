@@ -9,10 +9,10 @@ export default class Recipients extends React.Component {
           </p>
 
           <div>
-            <a href={require("../pdfs/2016Recipients.pdf")} >Recipients</a>
+            <a href={require("../pdfs/2016Recipients.pdf")} >Recipients (PDF)</a>
           </div>
-          <div>
-            <a href={require("../pdfs/Brochure095.pdf")} >Brochure</a>
+          <div style={{padding: "5 0 0 0"}}>
+            <a href={require("../pdfs/Brochure095.pdf")} >Brochure (PDF)</a>
           </div>
         {/* <div>
           <a href={require("../pdfs/RF_stipendiaadid_2016.pdf")} >2016/2017</a>

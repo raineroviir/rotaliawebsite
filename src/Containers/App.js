@@ -41,7 +41,7 @@ class App extends React.Component {
           {this.state.nav && <MobileNav show={this.showNav}/>}
           <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
             <MobileHeader nav={this.state.nav} handleClick={this.showNav}/>
-            <div id="content" className="content" style={{overflowY: "scroll",  display: "flex", flexDirection: "column",flexGrow: "1"}}>
+            <div id="content" className="content" style={{overflowY: "scroll",  display: "flex", flexDirection: "column",flexGrow: "1", overflowX: "hidden"}}>
               <div style={{padding: "20px 10px"}}>
                 {this.props.children}
               </div>
