@@ -8,8 +8,7 @@ export default class Incorporation extends React.Component {
 
         <p>Articles of Incorporation, dated December 28, 1982 is shown on the following pages:
         </p>
-
-          <a href={require("../pdfs/ArticlesofIncorporation.pdf")}>Articles of Incorporation</a>
+          <a href={require("../pdfs/ArticlesofIncorporation.pdf")}>Articles of Incorporation (PDF)</a>
       </div>
     )
   }
