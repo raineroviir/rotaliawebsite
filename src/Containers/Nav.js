@@ -15,7 +15,7 @@ export default class Nav extends React.Component {
   }
   render() {
     return (
-      <div style={{background: "#1173bc", color: "white", padding: "25px 0 5px 0", width: "125px", flexShrink: "0", margin: "119px 50px 0 0"}}>
+      <div style={{background: "#1173bc", color: "white", padding: "25px 0 5px 0", width: "125px", flexShrink: "0"}}>
         <Link className="navbar-button" to="/">
           <div onClick={this.setActive} className="navbar-innerbutton-div" style={{background: this.state.active === "Home" ? "rgb(12, 84, 137)" : ""}}>Home</div>
         </Link>

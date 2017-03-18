@@ -54,15 +54,17 @@ class App extends React.Component {
       )
     }
     return (
-      <div style={computedStyle, {display: "flex", fontFamily: "Arial", padding: "0 80px 0 50px"}}>
-        <Nav />
-        <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
-          <Header />
-          <div id="content" className="content" style={{padding: "30px 0 0 0", display: "flex", flexGrow: "1"}}>
+      <div className="rotalia" style={computedStyle, {height: "100%", display: "flex", flexDirection:"column"}}>
+        <Header />
+        <div style={{display: "flex", flexDirection: "row", padding: "1em", flex: "1 0 auto"}}>
+          <div style={{display: "flex"}}>
+          <Nav />
+          </div>
+          <div id="content" className="content" style={{padding: "1em"}}>
             {this.props.children}
           </div>
-          <Footer style={{alignSelf: "flex-end"}}/>
         </div>
+        <Footer/>
       </div>
     );
   }

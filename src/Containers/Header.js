@@ -6,7 +6,7 @@ import { Link } from 'react-router'
 export default class Header extends React.Component {
   render() {
     return (
-      <div style={{display: "flex", padding: "30px 0 10px 10px", alignContent: "center", flexDirection: "row", fontWeight: "600", flexShrink: "0"}}>
+      <div style={{display: "flex", padding: "30px 0 10px 142px", alignContent: "center", flexDirection: "row", fontWeight: "600", flexShrink: "0"}}>
         <Link to="/" style={{display: "flex", justifyContent: "center"}}>
           <div style={{background: `url(${RotaliaLogo})`, width: "100px", height: "89px", backgroundRepeat: "no-repeat"}}>
           </div>
