@@ -8,7 +8,7 @@ class BoardOfDirectors extends React.Component {
     if (this.props.isMobile) {
       return (
         <div style={{display: "flex", flexFlow: "row wrap", width: "100%", fontWeight: "600", flexGrow: "0"}}>
-          <p style={{fontSize: "18px", }}>Board of Directors</p>
+          <p style={{fontSize: "18px", display: "flex", justifyContent: "center", flexGrow: "1"}}>Board of Directors</p>
           <div style={{display: "flex", flexFlow: "row wrap", justifyContent: "space-between", flexGrow: "1"}}>
             <div style={{padding: "10px 0px", borderBottom: "1px dotted black", flexGrow: "1", flexBasis: "100%"}}>
               <div style={{display: "flex", flexFlow: "column", alignItems: "center"}}>

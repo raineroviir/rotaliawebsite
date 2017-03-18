@@ -7,7 +7,8 @@ export default class VahoRebassoo extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div style={{fontWeight: "600"}}>
+
         <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
         Vaho Rebassoo - Secretary
         </div>

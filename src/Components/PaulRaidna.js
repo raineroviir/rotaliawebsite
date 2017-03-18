@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 export default class PaulRaidna extends React.Component {
-  // componentDidMount() {
-  //   ReactDOM.findDOMNode(this).scrollIntoView()
-  // }
+  componentDidMount() {
+    ReactDOM.findDOMNode(this).scrollIntoView()
+  }
   render() {
     return (
       <div style={{fontWeight: "600"}}>
