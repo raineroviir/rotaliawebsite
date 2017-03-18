@@ -37,7 +37,7 @@ class App extends React.Component {
     {height: "auto", top: "auto"}
     if (isMobile) {
       return (
-        <div style={{display: "flex", fontFamily: "Arial"}}>
+        <div style={computedStyle, {display: "flex", fontFamily: "Arial"}}>
           {this.state.nav && <MobileNav show={this.showNav}/>}
           <div style={{display: "flex", flexDirection: "column", width: "100%", height: height < this.state.contentHeight ? "auto" : height}}>
             <MobileHeader nav={this.state.nav} handleClick={this.showNav}/>
