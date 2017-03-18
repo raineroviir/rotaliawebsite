@@ -8,7 +8,7 @@ export default class MartKask extends React.Component {
         <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
         Mart Kask - Chairman & Managing Director
         </div>
-          <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} />
+          {/* <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} />
 
           <div style={{fontSize: "14px"}}>
 
@@ -53,7 +53,7 @@ State Legislature and the U.S. Congress. One of his lobbying achievements
 culminated in the construction of the Washington State History Museum in
 Tacoma, Washington ($60 million).</p>
 
-  </div>
+  </div> */}
       </div>
     )
   }
