@@ -11,7 +11,7 @@ export default class VahoRebassoo extends React.Component {
         <div style={{fontSize: "18px", padding: "0 0 20px 0"}} >
         Vaho Rebassoo - Secretary
         </div>
-        <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} />
+        {/* <img style={{float: "left", width: "200px", height: "267px", padding: "0 10px 0 0"}} src={""} /> */}
 
         <div style={{fontSize: "14px"}}>
 <p>As Chief Technology Officer for Boeing IT, Dr. Vaho Rebassoo is
